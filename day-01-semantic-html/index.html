@@ -1,35 +1,46 @@
-<html>
-  <header>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Resume</title>
-  </header>
+  </head>
+
   <body>
-    <header>My Resume</header>
+    <header>
+      <h1>My Resume</h1>
+    </header>
+
     <main>
       <section>
         <h2>Name</h2>
         <p>Shreyas Kumbhar</p>
       </section>
+
       <section>
         <h2>Education</h2>
-        <p>Btech in CSE</p>
+        <p>B.Tech in CSE</p>
       </section>
+
       <section>
         <h2>Contact</h2>
         <ul>
           <li>
+            Email:
             <a href="mailto:kumbharshreyas07@gmail.com">
               kumbharshreyas07@gmail.com
             </a>
           </li>
-        </ul>
-        <ul>
+
           <li>
+            GitHub:
             <a href="https://github.com/Shreyas-Kumbhar">
-              visit my github profile</a
-            >
+              Visit my GitHub Profile
+            </a>
           </li>
         </ul>
       </section>
+
       <section>
         <h2>Skills</h2>
         <ul>
@@ -38,27 +49,52 @@
           <li>CSS</li>
         </ul>
       </section>
+
       <section>
         <h2>Projects</h2>
         <ul>
           <li>
             <a
-              href="https://github.com/Shreyas-Kumbhar/InsurancePolicyOptimizer.git"
+              href="https://github.com/Shreyas-Kumbhar/InsurancePolicyOptimizer"
             >
               Insurance Policy Optimizer
             </a>
           </li>
+
           <li>
-            <a
-              href="https://github.com/Shreyas-Kumbhar/order-payment-platform.git"
-              >Order and Payment Processing Platform</a
-            >
+            <a href="https://github.com/Shreyas-Kumbhar/order-payment-platform">
+              Order and Payment Processing Platform
+            </a>
           </li>
         </ul>
       </section>
+
       <section>
         <h2>Profile Picture</h2>
-        <img src="shreyas.png" alt="profile photo of yours" />
+        <img src="shreyas.png" alt="Profile photo of Shreyas" width="200" />
+      </section>
+
+      <section>
+        <h2>Contact Me</h2>
+
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+
+          <br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+
+          <br />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+
+          <br />
+
+          <button type="submit">Submit</button>
+        </form>
       </section>
     </main>
   </body>
