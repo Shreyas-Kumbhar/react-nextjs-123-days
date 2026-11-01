@@ -1,3 +1,16 @@
 p {
   font-size: 20px;
 }
+#main {
+  color: purple;
+}
+.p1 {
+  color: green;
+}
+.p2 {
+  color: green;
+}
+.b1 {
+  background-color: orange;
+  color: white;
+}
