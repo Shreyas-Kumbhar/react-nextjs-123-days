@@ -1,0 +1,17 @@
+h1 {
+  color: purple;
+}
+.card {
+  width: 300px;
+  background-color: lightblue;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
