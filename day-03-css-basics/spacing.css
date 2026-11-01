@@ -1,0 +1,10 @@
+h1 {
+  color: purple;
+}
+.box {
+  background-color: lightblue;
+  width: 300px;
+  padding: 10px 20px 30px 40px;
+  margin: 15px 25px;
+  border: 2px solid black;
+}
