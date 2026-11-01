@@ -68,3 +68,57 @@ One short entry per study day. Newest at the top.
   - Practice CSS selectors and basic styling.
   - Start styling my semantic resume.
   - Continue following the roadmap one lesson and exercise at a time.
+
+  # Daily Log
+
+One short entry per study day. Newest at the top.
+
+## Day 3: CSS Fundamentals and Flexbox
+
+- **Learned:**
+  - Reviewed CSS fundamentals and how CSS connects to HTML.
+  - Learned how to use external CSS files and link them using the `link` element.
+  - Practiced CSS selectors: element selectors, class selectors, and ID selectors.
+  - Learned the CSS Box Model: content, padding, border, and margin.
+  - Practiced margin and padding shorthand values and their order.
+  - Learned typography properties: `font-family`, `font-size`, `font-weight`, `line-height`, and `text-align`.
+  - Practiced text colors, background colors, named colors, HEX colors, and RGB colors.
+  - Learned CSS borders, border styles, and rounded corners using `border-radius`.
+  - Understood the purpose of the HTML `div` element and how it groups elements inside a container.
+  - Learned CSS display properties: `block`, `inline`, and `inline-block`.
+  - Learned CSS positioning: `static`, `relative`, `absolute`, `fixed`, and `sticky`.
+  - Practiced Flexbox basics using `display: flex`, `flex-direction`, `justify-content`, and `align-items`.
+  - Learned Flexbox spacing and wrapping using `gap`, `flex-wrap`, and `align-content`.
+  - Understood the Flexbox main axis and cross axis.
+  - Practiced arranging elements horizontally, vertically, and across multiple rows.
+
+- **Built:**
+  - A basic HTML page styled using an external CSS stylesheet.
+  - CSS selector practice using element, class, and ID selectors.
+  - A styled card using width, background color, padding, border, and border radius.
+  - A CSS display practice page using `inline-block`.
+  - A positioning practice card with a badge placed in the top-right corner using relative and absolute positioning.
+  - A Flexbox layout with Java, HTML, and CSS boxes arranged horizontally.
+  - A Flexbox skills layout with Java, HTML, CSS, JavaScript, React, and Next.js boxes.
+  - Multiple CSS exercises covering typography, colors, borders, positioning, spacing, and alignment.
+
+- **Hard part:**
+  - Understanding the difference between element selectors, class selectors, and ID selectors.
+  - Understanding how padding, margin, border, and content contribute to the CSS Box Model.
+  - Understanding the difference between `block`, `inline`, and `inline-block`.
+  - Understanding how relative and absolute positioning work together.
+  - Understanding why a parent container uses `position: relative` when positioning a child with `position: absolute`.
+  - Understanding the difference between `justify-content` and `align-items`.
+  - Understanding the Flexbox main axis and cross axis.
+  - Understanding how `flex-wrap` moves items onto multiple rows.
+  - Understanding the difference between `align-items` and `align-content`.
+  - Practicing CSS syntax and correcting mistakes such as incorrect selectors and missing values.
+
+- **Tomorrow:**
+  - Continue CSS fundamentals according to the roadmap.
+  - Learn CSS Grid and understand its layout structure.
+  - Practice creating rows and columns using CSS Grid.
+  - Continue practicing Flexbox and CSS layouts.
+  - Build more practical HTML and CSS components.
+  - Review today's CSS concepts before moving forward.
+  - Continue following the roadmap one lesson and exercise at a time.
