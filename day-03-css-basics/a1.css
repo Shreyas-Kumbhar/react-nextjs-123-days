@@ -1,0 +1,11 @@
+h1 {
+  size: 32px;
+  color: purple;
+}
+p {
+  color: grey;
+}
+button {
+  background-color: blue;
+  color: white;
+}
