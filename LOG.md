@@ -122,3 +122,4 @@ One short entry per study day. Newest at the top.
   - Build more practical HTML and CSS components.
   - Review today's CSS concepts before moving forward.
   - Continue following the roadmap one lesson and exercise at a time.
+  
