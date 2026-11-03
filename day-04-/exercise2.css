@@ -1,8 +1,10 @@
 .skills {
   display: flex;
-  gap: 15px;
+  flex-direction: column;
+  gap: 10px;
   justify-content: center;
   align-items: center;
+  width: 300px;
 }
 .skill {
   background-color: lightblue;
