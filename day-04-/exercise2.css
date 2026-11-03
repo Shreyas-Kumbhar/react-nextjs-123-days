@@ -1,0 +1,12 @@
+.skills {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.skill {
+  background-color: lightblue;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
