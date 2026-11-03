@@ -3,6 +3,8 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: auto;
   gap: 10px;
+  justify-items: center;
+  align-items: center;
 }
 .item {
   background-color: lightblue;

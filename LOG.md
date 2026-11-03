@@ -2,76 +2,64 @@
 
 One short entry per study day. Newest at the top.
 
-## Day 1: Semantic HTML
+## Day 4: CSS Grid
 
 - **Learned:**
-  - Frontend vs. backend and how they work together.
-  - HTML fundamentals: tags, elements, attributes, and document structure.
-  - Semantic HTML: `header`, `main`, `section`, and `footer`.
-  - Headings, paragraphs, ordered and unordered lists.
-  - Links, images, and the purpose of the `alt` attribute.
-  - HTML forms: `form`, `label`, `input`, `textarea`, and `button`.
-  - Form attributes: `id`, `name`, `for`, `type`, `required`, `placeholder`, `rows`, and `maxlength`.
-  - Form `action`, GET vs. POST, and the basic browser-to-backend request flow.
-  - Accessibility basics and the DOM parent-child tree structure.
+  - Understood what CSS Grid is and how it is used to create two-dimensional layouts with rows and columns.
+  - Learned the difference between CSS Grid and Flexbox.
+  - Understood the difference between a Grid container and Grid items.
+  - Learned how to enable Grid using `display: grid`.
+  - Practiced creating equal columns using `grid-template-columns`.
+  - Learned how to create two equal columns using `1fr 1fr`.
+  - Practiced creating three equal columns using `repeat(3, 1fr)`.
+  - Learned how to create unequal columns using `1fr 2fr`.
+  - Understood the CSS Grid `fr` unit and how it distributes available space.
+  - Learned how to define rows using `grid-template-rows`.
+  - Practiced creating fixed-height rows using `repeat(2, 100px)`.
+  - Learned how `auto` adjusts row sizing based on content and available layout space.
+  - Practiced adding spacing between Grid items using `gap`.
+  - Learned the difference between `row-gap` and `column-gap`.
+  - Learned how `repeat()` simplifies repeated Grid track definitions.
+  - Practiced responsive Grid layouts using `auto-fit` and `minmax()`.
+  - Understood how `minmax(200px, 1fr)` defines minimum and maximum track sizes.
+  - Learned how `auto-fit` and `minmax()` work together to create responsive columns.
+  - Practiced aligning Grid items using `justify-items` and `align-items`.
+  - Understood the difference between horizontal and vertical alignment in Grid.
+  - Learned how Grid layouts adapt to different container widths.
 
 - **Built:**
-  - A semantic HTML resume with sections for personal information, skills, education, projects, and contact.
-  - A contact form with name, email, message, labels, required fields, and a submit button.
+  - A Grid layout with two equal columns and a 10px gap.
+  - A Grid layout with three equal columns using `repeat(3, 1fr)`.
+  - A Grid layout with two rows of 100px height.
+  - A Grid layout using automatic row sizing with `grid-template-rows: auto`.
+  - A responsive Grid layout using `repeat(auto-fit, minmax(200px, 1fr))`.
+  - A Grid layout with centered items using `justify-items: center` and `align-items: center`.
+  - A responsive skills layout containing Java, HTML, CSS, JavaScript, React, and Next.js.
+  - Multiple CSS Grid exercises covering columns, rows, spacing, responsive layouts, and alignment.
 
 - **Hard part:**
-  - Understanding the difference between `head` and `header`, and `body` and `main`.
-  - Understanding how `label`, `for`, `id`, and `name` work together in forms.
-  - Understanding how HTML elements form a parent-child tree and how form data reaches a backend.
+  - Understanding the difference between CSS Grid and Flexbox.
+  - Understanding how Grid containers, Grid items, rows, columns, and cells work together.
+  - Understanding how `1fr` and `2fr` distribute available space.
+  - Understanding the difference between `grid-template-columns` and `grid-template-rows`.
+  - Understanding the difference between fixed row heights and automatic row sizing.
+  - Understanding how `repeat()` simplifies Grid column definitions.
+  - Understanding how `auto-fit` and `minmax()` create responsive layouts.
+  - Understanding how Grid items behave when the container width changes.
+  - Understanding the difference between `justify-items` and `align-items`.
+  - Practicing Grid syntax and correcting mistakes in CSS properties and values.
 
 - **Tomorrow:**
-  - Continue practicing HTML fundamentals.
-  - Review and improve my semantic resume.
-  - Practice HTML forms, attributes, and accessibility.
-  - Continue following the roadmap before moving to CSS.
-
-  # Daily Log
-
-One short entry per study day. Newest at the top.
-
-## Day 2: HTML Forms and Validation
-
-- **Learned:**
-  - Reviewed HTML document structure and semantic elements.
-  - Practiced creating HTML forms using `form`, `label`, `input`, `textarea`, and `button`.
-  - Understood the relationship between `id`, `for`, and `name` attributes.
-  - Learned different input types: `text`, `email`, `password`, and `number`.
-  - Practiced form validation using `required`, `minlength`, `maxlength`, `min`, `max`, and `step`.
-  - Understood the difference between `minlength` and `min`.
-  - Learned how radio buttons work and how the same `name` groups them together.
-  - Learned how checkboxes allow users to select multiple options.
-  - Practiced using `value` to identify selected form options.
-  - Reviewed how browser validation prevents form submission when required fields are invalid.
-
-- **Built:**
-  - A contact form with name, email, age, and message fields.
-  - A registration form with name, email, password, age, gender, skills, and message.
-  - Radio buttons for selecting gender.
-  - Checkboxes for selecting multiple skills, including Java, HTML, and CSS.
-  - Form validation using appropriate HTML attributes.
-
-- **Hard part:**
-  - Understanding the difference between `minlength` and `min`.
-  - Understanding how radio buttons use the same `name` to form a group.
-  - Understanding how checkboxes allow multiple selections.
-  - Understanding how `id`, `name`, and `value` work together in forms.
-  - Understanding why a form cannot submit when one or more fields fail validation.
-
-- **Tomorrow:**
-  - Begin CSS fundamentals according to the roadmap.
-  - Learn how CSS connects to HTML.
-  - Practice CSS selectors and basic styling.
-  - Start styling my semantic resume.
+  - Continue CSS fundamentals according to the roadmap.
+  - Learn CSS Responsive Design and media queries.
+  - Understand how webpages adapt to mobile, tablet, and desktop screen sizes.
+  - Practice mobile-first design.
+  - Learn how to create responsive layouts using CSS.
+  - Practice making my existing HTML and CSS components responsive.
+  - Review CSS Grid and Flexbox before moving forward.
   - Continue following the roadmap one lesson and exercise at a time.
 
-  # Daily Log
-
-One short entry per study day. Newest at the top.
+---
 
 ## Day 3: CSS Fundamentals and Flexbox
 
@@ -122,4 +110,70 @@ One short entry per study day. Newest at the top.
   - Build more practical HTML and CSS components.
   - Review today's CSS concepts before moving forward.
   - Continue following the roadmap one lesson and exercise at a time.
-  
+
+---
+
+## Day 2: HTML Forms and Validation
+
+- **Learned:**
+  - Reviewed HTML document structure and semantic elements.
+  - Practiced creating HTML forms using `form`, `label`, `input`, `textarea`, and `button`.
+  - Understood the relationship between `id`, `for`, and `name` attributes.
+  - Learned different input types: `text`, `email`, `password`, and `number`.
+  - Practiced form validation using `required`, `minlength`, `maxlength`, `min`, `max`, and `step`.
+  - Understood the difference between `minlength` and `min`.
+  - Learned how radio buttons work and how the same `name` groups them together.
+  - Learned how checkboxes allow users to select multiple options.
+  - Practiced using `value` to identify selected form options.
+  - Reviewed how browser validation prevents form submission when required fields are invalid.
+
+- **Built:**
+  - A contact form with name, email, age, and message fields.
+  - A registration form with name, email, password, age, gender, skills, and message.
+  - Radio buttons for selecting gender.
+  - Checkboxes for selecting multiple skills, including Java, HTML, and CSS.
+  - Form validation using appropriate HTML attributes.
+
+- **Hard part:**
+  - Understanding the difference between `minlength` and `min`.
+  - Understanding how radio buttons use the same `name` to form a group.
+  - Understanding how checkboxes allow multiple selections.
+  - Understanding how `id`, `name`, and `value` work together in forms.
+  - Understanding why a form cannot submit when one or more fields fail validation.
+
+- **Tomorrow:**
+  - Begin CSS fundamentals according to the roadmap.
+  - Learn how CSS connects to HTML.
+  - Practice CSS selectors and basic styling.
+  - Start styling my semantic resume.
+  - Continue following the roadmap one lesson and exercise at a time.
+
+---
+
+## Day 1: Semantic HTML
+
+- **Learned:**
+  - Frontend vs. backend and how they work together.
+  - HTML fundamentals: tags, elements, attributes, and document structure.
+  - Semantic HTML: `header`, `main`, `section`, and `footer`.
+  - Headings, paragraphs, ordered and unordered lists.
+  - Links, images, and the purpose of the `alt` attribute.
+  - HTML forms: `form`, `label`, `input`, `textarea`, and `button`.
+  - Form attributes: `id`, `name`, `for`, `type`, `required`, `placeholder`, `rows`, and `maxlength`.
+  - Form `action`, GET vs. POST, and the basic browser-to-backend request flow.
+  - Accessibility basics and the DOM parent-child tree structure.
+
+- **Built:**
+  - A semantic HTML resume with sections for personal information, skills, education, projects, and contact.
+  - A contact form with name, email, message, labels, required fields, and a submit button.
+
+- **Hard part:**
+  - Understanding the difference between `head` and `header`, and `body` and `main`.
+  - Understanding how `label`, `for`, `id`, and `name` work together in forms.
+  - Understanding how HTML elements form a parent-child tree and how form data reaches a backend.
+
+- **Tomorrow:**
+  - Continue practicing HTML fundamentals.
+  - Review and improve my semantic resume.
+  - Practice HTML forms, attributes, and accessibility.
+  - Continue following the roadmap before moving to CSS.
