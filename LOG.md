@@ -2,6 +2,47 @@
 
 One short entry per study day. Newest at the top.
 
+# Day 5: CSS Responsive Design
+- **Learned**:
+  - Understood what responsive web design is and why webpages need to adapt to mobile, tablet, and desktop screen sizes.
+  - Learned how CSS media queries work using @media.
+  - Practiced using max-width for styles that apply up to a specified screen width.
+  - Practiced using min-width for styles that apply from a specified screen width upward.
+  - Learned how to combine media query conditions for mobile, tablet, and desktop layouts.
+  - Understood mobile-first design: write the default styles for mobile, then progressively enhance the layout with min-width media queries.
+  - Learned how responsive containers use percentage widths, max-width, and margin: 0 auto.
+  - Learned how max-width: 100% and height: auto help images fit their containers while preserving their aspect ratio.
+  - Reviewed the viewport meta tag: <meta name="viewport" content="width=device-width, initial-scale=1.0">.
+  - Learned how to make a navigation bar responsive using Flexbox and media queries.
+  - Reviewed flex-direction, justify-content, align-items, gap, and list-style.
+  - Practiced responsive project-card layouts using CSS Grid.
+  - Reviewed repeat(), auto-fit, minmax(), and gap for responsive Grid columns.
+  - Reviewed element, class, ID, descendant, and grouped CSS selectors.
+  - Reviewed the CSS Box Model, box-sizing: border-box, margin, and padding.
+- **Built**:
+  - A responsive personal portfolio mini-project using semantic HTML and CSS.
+  - A page structure containing a header, navigation bar, home/hero section, About section, Projects section, and footer.
+  - Navigation links connected to page sections using matching href fragment links and element IDs.
+  - A Flexbox navigation bar with the logo on the left and navigation links on the right.
+  - Styled home, About, and Projects sections with spacing, background colors, text alignment, and rounded corners.
+  - A project-card layout using a shared Grid parent and responsive columns with repeat(auto-fit, minmax(200px, 1fr)).
+  - Mobile navigation styling using a max-width: 600px media query.
+  - Responsive layout practice for desktop, tablet, and mobile screen widths.
+- **Hard part**:
+  - Understanding when to use min-width versus max-width in media queries.
+  - Understanding how mobile-first styles are overridden at larger breakpoints.
+  - Understanding why a shared parent must be the Grid container when arranging multiple project cards into columns.
+  - Matching CSS class selectors to the correct HTML class names.
+  - Understanding how auto-fit and minmax() adapt Grid columns to the available width.
+  - Avoiding repeated CSS by using grouped selectors for sections with shared styles.
+  - Remembering to remove default list margin and padding when styling navigation.
+  - Checking that responsive layouts do not cause horizontal overflow.
+- **Tomorrow**:
+  - Review Day 5 responsive design concepts.
+  - Finish and test the portfolio mini-project at desktop, tablet, and mobile widths.
+  - Verify that the navigation and project cards adapt correctly on smaller screens.
+  - Continue following the frontend learning roadmap one lesson and exercise at a time.
+
 ## Day 4: CSS Grid
 
 - **Learned:**
