@@ -1,19 +1,18 @@
+/* Mobile-first: default styles */
 .container {
-  background-color: lightgreen;
-  padding: 20px;
-  text-align: center;
+  background-color: lightblue;
 }
 
-/* Mobile */
-@media (max-width: 600px) {
+/* Tablet and larger */
+@media (min-width: 601px) {
   .container {
-    background-color: lightblue;
+    background-color: lightcoral;
   }
 }
 
-/* Tablet */
-@media (min-width: 601px) and (max-width: 900px) {
+/* Desktop and larger */
+@media (min-width: 901px) {
   .container {
-    background-color: lightcoral;
+    background-color: lightgreen;
   }
 }
