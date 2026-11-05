@@ -2,6 +2,53 @@
 
 One short entry per study day. Newest at the top.
 
+## Day 6: CSS Interactions, Transitions, Transforms, Shadows and Animations
+- **Learned**:
+  - Learned CSS pseudo-classes and how they style elements in different interaction states.
+  - Practiced :hover for styling an element when the pointer is over it.
+  - Practiced :focus for styling focused inputs, including using outline and border-color.
+  - Practiced :active for styling an element while it is being activated or pressed.
+  - Learned how CSS transitions make changes between states happen smoothly.
+  - Practiced the transition shorthand using a property, duration, and timing function.
+  - Learned the meaning of ease, ease-in-out, and transition durations such as 0.3s and 1s.
+  - Understood the difference between transitioning a specific property and using transition: all.
+  - Learned CSS transforms: translateX(), translateY(), scale(), and rotate().
+  - Practiced positive and negative translation values to move elements right, left, down, and up.
+  - Learned how scale() changes an element's size and how values below or above 1 affect its size.
+  - Practiced combining multiple transform functions in one transform declaration.
+  - Understood that a later transform declaration in the same CSS rule overrides an earlier one.
+  - Learned how box-shadow adds depth and a shadow effect to an element.
+  - Understood the horizontal offset, vertical offset, blur radius, spread radius, and color values in box-shadow.
+  - Learned CSS animations using @keyframes, including from and to.
+  - Practiced animation shorthand with an animation name, duration, timing function, and iteration count.
+  - Learned that animations run once by default and that infinite repeats an animation continuously.
+  - Learned animation directions: normal, reverse, alternate, and alternate-reverse.
+  - Understood that transitions generally respond to a state change, while animations can run using defined keyframes.
+- Built:
+  - A button interaction exercise using :hover, :active, and :focus.
+  - A button with a smooth background-color transition using transition: background-color 1s ease-in-out.
+  - Transform exercises using translateX(), translateY(), scale(), and rotate().
+  - A card hover effect combining translateY(-10px) and scale(1.05).
+  - A styled card with a white background, 250px width, 20px padding, 10px rounded corners, and a soft shadow.
+  - A card hover effect using translateY(-5px).
+  - Animation examples that move a box from left to right and change its background color from red to blue.
+  - An interactive profile-card styling exercise with a shadow, smooth transition, hover transform, and button hover color.
+- **Hard part**:
+  - Understanding the difference between :hover, :focus, and :active.
+  - Understanding that a transition only animates the properties specified in the transition declaration.
+  - Understanding the difference between translateX() and translateY(), and the direction of positive and negative values.
+  - Understanding how scale() values change an element's size.
+  - Combining multiple transform functions without writing separate transform declarations that override one another.
+  - Understanding the parameters of box-shadow.
+  - Understanding the difference between a transition and an animation.
+  - Understanding how infinite and alternate affect animation playback.
+- **Tomorrow**:
+  - Begin Day 7 and learn CSS variables and reusable styles.
+  - Practice defining and using custom properties with :root and var().
+  - Apply reusable colors, spacing, and other values to CSS components.
+  - Continue building and improving practical frontend components.
+  - Review Day 6 interactions and animation concepts before moving forward.
+
 # Day 5: CSS Responsive Design
 - **Learned**:
   - Understood what responsive web design is and why webpages need to adapt to mobile, tablet, and desktop screen sizes.
