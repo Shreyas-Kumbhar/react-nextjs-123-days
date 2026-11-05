@@ -1,0 +1,7 @@
+.card {
+  background-color: aliceblue;
+}
+.card:hover {
+  transform: translateY(-10px);
+  transform: scale(1.05);
+}
