@@ -1,0 +1,19 @@
+button {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: darkgreen;
+}
+button:active {
+  background-color: gold;
+  transform: scale(0.95);
+}
+input:focus {
+  outline: 2px solid blue;
+  border-color: blue;
+}
