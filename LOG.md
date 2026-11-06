@@ -2,6 +2,44 @@
 
 One short entry per study day. Newest at the top.
 
+## Day 7: CSS Variables and Reusable Styles
+- **Learned**:
+  - Understood what CSS variables (custom properties) are and why they help avoid repeating values.
+  - Learned how to define reusable CSS variables inside the :root selector.
+  - Practiced naming custom properties with the -- prefix, such as --primary-color.
+  - Learned how to access CSS variables using the var() function.
+  - Understood how changing one variable updates every CSS property that uses it.
+  - Practiced creating reusable color variables for primary, background, card, and text colors.
+  - Practiced creating reusable spacing variables for small, medium, and large spacing.
+  - Learned how to reuse spacing variables for padding, margin, and gap.
+  - Practiced creating typography variables for font sizes and font weights.
+  - Reviewed common font-weight values: 400, 500, 600, and 700.
+  - Learned how to create reusable border-radius variables.
+  - Learned how to provide a fallback value inside var().
+  - Understood how CSS variables can form a small reusable design system.
+- **Built**:
+  - A reusable CSS variable collection inside :root, organized into colors, spacing, typography, and border-radius categories.
+  - A profile page using semantic HTML elements, including main, section, headings, paragraphs, and a button.
+  - A profile card styled with reusable color, spacing, typography, and border-radius variables.
+  - A profile avatar/logo using a .logo class and Flexbox.
+  - A centered profile-card layout using Flexbox.
+  - A reusable styling example for cards, headings, paragraphs, and buttons.
+  - A Day 7 revision quiz covering :root, var(), reusable variables, fallback values, and custom-property naming.
+- Hard part:
+  - Understanding why :root is commonly used for globally reusable CSS variables.
+  - Remembering that custom property names must begin with --.
+  - Understanding how var() accesses a custom property.
+  - Understanding how one variable can be reused by multiple elements and properties.
+  - Choosing meaningful names for color, spacing, typography, and radius variables.
+  - Understanding when and how to use fallback values in var().
+  - Applying the variables consistently throughout the profile-card stylesheet.
+- **Tomorrow**:
+  - Begin Day 8 and learn CSS sizing units such as px, %, em, rem, vh, and vw.
+  - Understand the differences between fixed, relative, and viewport-based units.
+  - Practice using sizing units for responsive layouts.
+  - Review CSS variables and the reusable profile-card design system.
+  - Continue following the frontend learning roadmap one lesson and exercise at a time.
+
 ## Day 6: CSS Interactions, Transitions, Transforms, Shadows and Animations
 - **Learned**:
   - Learned CSS pseudo-classes and how they style elements in different interaction states.
