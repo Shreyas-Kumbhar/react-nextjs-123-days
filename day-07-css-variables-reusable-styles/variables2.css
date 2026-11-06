@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #2563eb;
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 24px;
+  --radius-medium: 10px;
+}
+
+.card {
+  padding: var(--spacing-large);
+  border-radius: var(--radius-medium);
+}
+
+.card button {
+  background-color: var(--primary-color);
+  padding: var(--spacing-small) var(--spacing-medium);
+}
