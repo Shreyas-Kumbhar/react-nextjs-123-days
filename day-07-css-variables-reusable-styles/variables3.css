@@ -1,0 +1,13 @@
+:root {
+  --weight-normal: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
+}
+
+h1 {
+  font-weight: var(--weight-bold);
+}
+
+p {
+  font-weight: var(--weight-normal);
+}
