@@ -19,3 +19,33 @@
   --radius-small: 6px;
   --radius-large: 12px;
 }
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  width: 280px;
+  padding: var(--spacing-large);
+  background-color: var(--card-color);
+  border-radius: var(--radius-large);
+}
+
+.card h2 {
+  color: var(--primary-color);
+  font-size: var(--font-large);
+}
+
+.card p {
+  font-size: var(--font-medium);
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: var(--spacing-small) var(--spacing-medium);
+  border: none;
+  border-radius: var(--radius-small);
+}
