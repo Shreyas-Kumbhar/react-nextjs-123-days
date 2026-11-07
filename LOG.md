@@ -2,6 +2,41 @@
 
 One short entry per study day. Newest at the top.
 
+## Day 8: CSS Sizing Units
+
+- **Learned**:
+- Learned what CSS pixels (px) are and how they provide fixed sizing for properties such as width, height, and padding.
+- Learned how percentages (%) work as relative values based on the relevant dimension of the parent or containing block.
+- Practiced calculating percentage widths, including 50% of 800px = 400px and 75% of 800px = 600px.
+- Learned how em relates to the parent font size when used for font-size.
+- Practiced calculating em values, including 2em of a 18px parent font size = 36px and 1.5em of a 20px parent font size = 30px.
+- Learned how rem (Root EM) relates to the root HTML font size.
+- Practiced calculating rem values, including 1.5rem of a 16px root font size = 24px and 2rem = 32px.
+- Understood the difference between em and rem: em uses the parent font size for font-size, while rem uses the root HTML font size.
+- Learned how vh represents a percentage of the viewport height and how 100vh can be used for a full-height hero section.
+- Practiced calculating vh values, including 50vh of an 800px viewport height = 400px and 25vh = 200px.
+- Learned how vw represents a percentage of the viewport width.
+- Practiced calculating vw values, including 25vw of a 1000px viewport width = 250px and 50vw of a 1200px viewport width = 600px.
+- Compared fixed sizing (px), relative sizing (% / em / rem), and viewport-based sizing (vh / vw).
+- Learned how width, max-width, and min-height can be combined to create flexible layouts.
+- Understood that min-height sets a minimum height, so the element can be exactly that height or taller.
+- **Built / Practiced**:
+- Completed quick-check questions on px, %, em, rem, vh, and vw.
+- Completed a five-question revision quiz with all five answers correct.
+- Practiced analyzing a responsive profile-card CSS example using width: 90%, max-width: 400px, padding: 1.5rem, min-height: 50vh, and border-radius: 12px.
+- Explained what each sizing property in the profile-card example does and corrected the meaning of min-height.
+- **Hard part**:
+- Remembering which reference size each relative unit depends on.
+- Distinguishing em (parent font size) from rem (root HTML font size).
+- Distinguishing viewport height (vh) from viewport width (vw).
+- Calculating percentage, em, rem, vh, and vw values correctly.
+- Understanding that min-height means at least the specified height, not exactly that height.
+- Understanding how width: 90%, max-width: 400px, and min-height: 50vh work together in a responsive card.
+- **Tomorrow**:
+- Review Day 8 CSS sizing units and their differences.
+- Continue the frontend learning roadmap with the next lesson.
+- Practice applying sizing units in responsive HTML and CSS layouts.
+
 ## Day 7: CSS Variables and Reusable Styles
 - **Learned**:
   - Understood what CSS variables (custom properties) are and why they help avoid repeating values.
