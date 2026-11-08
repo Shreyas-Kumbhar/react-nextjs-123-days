@@ -1,5 +1,4 @@
 # Daily Log
-
 One short entry per study day. Newest at the top.
 
 ## Day 8: CSS Sizing Units
