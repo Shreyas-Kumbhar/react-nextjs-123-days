@@ -2,6 +2,43 @@
 
 One short entry per study day. Newest at the top.
 
+## Day 9: CSS Overflow and Content Handling**
+
+- **Learned**:
+
+  - Learned what CSS overflow is and why it is used when content exceeds an element's available space.
+  - Learned the four main `overflow` values: `visible`, `hidden`, `scroll`, and `auto`.
+  - Understood that `overflow: visible` allows content to extend outside its container.
+  - Understood that `overflow: hidden` clips overflowing content without displaying scrollbars.
+  - Learned that `overflow: scroll` provides scrollbars and `overflow: auto` displays them when needed.
+  - Learned how `overflow-x` controls horizontal overflow and `overflow-y` controls vertical overflow.
+  - Practiced combining `overflow-x: hidden` with `overflow-y: auto` to hide horizontal overflow while allowing vertical scrolling when needed.
+  - Learned how `text-overflow: ellipsis` displays `...` when text is truncated.
+  - Learned how `white-space: nowrap` keeps text on one line.
+  - Understood that `text-overflow: ellipsis` is commonly combined with `white-space: nowrap` and `overflow: hidden`.
+  - Reviewed how `width: 90%` and `max-width: 350px` work together to create a flexible card that does not exceed 350px.
+
+- **Built / Practiced**:
+
+  - Completed five quick-check questions covering overflow values, horizontal and vertical overflow, and text truncation; all five answers were correct.
+  - Analyzed a scrollable project-card example using `overflow-y: auto` and `overflow-x: hidden`.
+  - Analyzed a project title example using `white-space: nowrap`, `overflow: hidden`, and `text-overflow: ellipsis`.
+  - Explained how responsive width and maximum width work together with overflow properties in a project card.
+
+- **Hard part**:
+
+  - Distinguishing `overflow: scroll` from `overflow: auto`.
+  - Understanding the difference between horizontal overflow and vertical overflow.
+  - Understanding that `overflow-x: hidden` clips overflowing content rather than intelligently truncating text.
+  - Understanding that ellipsis indicates truncated text, not that more content is loading.
+  - Understanding how `width: 90%` and `max-width: 350px` work together.
+
+- **Tomorrow**:
+
+  - Review Day 9 CSS overflow and text-truncation concepts.
+  - Continue the frontend learning roadmap with the next lesson.
+  - Practice applying CSS overflow properties when building layouts and components.
+
 ## Day 8: CSS Sizing Units
 
 - **Learned**:
