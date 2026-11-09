@@ -2,6 +2,45 @@
 
 One short entry per study day. Newest at the top.
 
+## Day 10: CSS Cascade and Specificity
+- **Learned**:
+  - Learned what the CSS Cascade is and how the browser decides which CSS declaration to apply when multiple rules target the same element.
+  - Learned the basic specificity priority for normal author CSS selectors: ID > Class > Element > Universal.
+  - Understood that ID selectors such as #title have higher specificity than class selectors such as .title.
+  - Understood that class selectors have higher specificity than element selectors such as h1 or p.
+  - Learned that the universal selector * targets all elements and contributes zero specificity.
+  - Learned how to calculate CSS specificity using the format (ID, Class, Element).
+  - Practiced calculating specificity for combined selectors such as #profile .card h2 = (1, 1, 1).
+  - Practiced calculating specificity for #header #logo .active p span = (2, 1, 2).
+  - Learned that when competing declarations have equal priority and specificity, the later rule in the stylesheet wins through source order.
+  - Learned how inline CSS is written using the style attribute and why it wins over normal stylesheet declarations in the examples practiced.
+  - Learned what !important does and how it gives a declaration priority over normal declarations in the same cascade context.
+  - Understood that !important should be used sparingly because it can make CSS harder to maintain.
+  - Reviewed the main Cascade decision factors: importance, origin and cascade layers, specificity, and source order.
+  - Understood that the examples focused mainly on normal author CSS declarations, while the full CSS Cascade has additional rules.
+- **Built / Practiced**:
+  - Compared element, class, ID, and universal selectors to identify which declaration wins.
+  - Practiced examples where ID selectors override class and element selectors.
+  - Practiced equal-specificity examples and identified the last matching rule as the winner.
+  - Compared inline styles with normal stylesheet declarations.
+  - Practiced an example where color: green !important overrides a normal inline color: orange declaration.
+  - Calculated specificity scores for individual and combined selectors.
+  - Completed quick-check questions covering selector priority, source order, inline CSS, !important, and specificity calculations.
+  - Completed a final code-output prediction exercise using element, class, and ID selectors.
+- **Hard part**:
+  - Remembering that the last CSS rule does not always win; specificity and other Cascade factors matter first.
+  - Distinguishing ID specificity from class and element specificity.
+  - Calculating specificity by counting IDs, classes, and elements separately.
+  - Understanding that the universal selector contributes zero specificity.
+  - Understanding when source order decides the winner.
+  - Understanding the relationship between inline styles and !important.
+  - Remembering that !important does not bypass every rule of the full CSS Cascade.
+- **Tomorrow**:
+  - Review Day 10 CSS Cascade and specificity concepts.
+  - Continue the frontend learning roadmap with the next lesson.
+  - Practice identifying winning CSS declarations and calculating specificity.
+  - Apply the Cascade and specificity rules when styling real webpage components.
+
 ## Day 9: CSS Overflow and Content Handling**
 
 - **Learned**:
