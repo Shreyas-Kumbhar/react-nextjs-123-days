@@ -1,6 +1,7 @@
 # Daily Log
 
 One short entry per study day. Newest at the top.
+
 ## Day 10: CSS Cascade and Specificity
 - **Learned**:
   - Learned what the CSS Cascade is and how the browser decides which CSS declaration to apply when multiple rules target the same element.
